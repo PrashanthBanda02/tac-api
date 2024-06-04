@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page2s",
+  "info": {
+    "singularName": "home-page2",
+    "pluralName": "home-page2s",
+    "displayName": "Home-Page2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "home-page",
+      "required": false
+    }
+  }
+}

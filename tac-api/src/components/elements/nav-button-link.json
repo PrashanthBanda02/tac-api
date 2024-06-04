@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_elements_nav_button_links",
+  "info": {
+    "displayName": "nav-button-link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "blue",
+        "white"
+      ],
+      "default": "black",
+      "required": true
+    },
+    "border": {
+      "type": "string",
+      "default": "none"
+    },
+    "borderRadius": {
+      "type": "string",
+      "default": "none"
+    },
+    "textColor": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "black"
+      ],
+      "default": "white",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
